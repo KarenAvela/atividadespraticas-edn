@@ -6,4 +6,6 @@ valor_dolar = valor_reais / cotacao_dolar
 
 valor_euro = valor_reais / cotacao_euro
 
-print (f"O valor em dólar é: {valor_dolar} e o valor em euro é: {valor_euro}")
+print (f"Valor em reais: R${valor_reais:.2f}")
+print (f"Valor em dólar:  ${valor_dolar:.2f}")
+print (f"Valor em euro:   ${valor_euro:.2f}")
