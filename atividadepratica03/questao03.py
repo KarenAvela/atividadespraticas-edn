@@ -20,4 +20,4 @@ elif origem == "K":
     elif destino == "F":
         resultado = (temperatura - 273.15) * 9/5 + 32
 
-print(f"Temperatura convertida: {resultado:.2f} {destino}")
+print(f"Temperatura {temperatura} em {origem} é igual a temperatura: {resultado:.2f} em {destino}")
